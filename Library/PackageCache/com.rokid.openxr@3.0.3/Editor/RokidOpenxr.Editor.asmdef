@@ -1,0 +1,14 @@
+{
+    "name": "Rokid.Openxr.Editor",
+    "references": [
+        "Rokid.Openxr",
+        "Unity.XR.ARSubsystems",
+        "Unity.XR.ARSubsystems.Editor",
+        "Unity.XR.Management",
+        "Unity.XR.Management.Editor",
+        "Unity.XR.CoreUtils.Editor"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ]
+}

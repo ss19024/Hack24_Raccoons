@@ -1,0 +1,22 @@
+%YAML:1.0
+Debug: 1
+
+BowModelPath: "vocabulary_sift_vlad.xml"
+CalibPath: "cam_imu_calib_maxpro.yaml"
+Calib1Path: "cam_calib_station.yaml"
+DataSourcePath: ""
+#TemplatePath: "marker.png"
+
+DataSourceType: "Image"
+LogLevel: "INFO"
+
+
+ImageStartId: 0
+ImageEndId: -1
+ImageTotalNum: -1
+
+MaxFeature: 1000
+
+
+TemplateWidth: 0.277
+TemplateHeight: 0.197

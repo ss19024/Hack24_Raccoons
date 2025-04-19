@@ -1,0 +1,21 @@
+{
+    "name": "Rokid.Unity.XR.Editor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:e40ba710768534012815d3193fa296cb",
+        "GUID:f9fe0089ec81f4079af78eb2287a6163",
+        "GUID:2f52f0b6cfdc94464bcc067a11c8e1b6",
+        "GUID:fe14bc9dd681249d19cf4ef377c7e29e"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

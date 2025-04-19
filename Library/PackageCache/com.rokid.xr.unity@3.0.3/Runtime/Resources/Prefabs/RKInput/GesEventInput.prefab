@@ -1,0 +1,156 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &9125809958550309514
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2421169137992266608}
+  - component: {fileID: 1503891856661685689}
+  - component: {fileID: 2181845553270913133}
+  - component: {fileID: 7813949381383051531}
+  m_Layer: 0
+  m_Name: GesEventInput
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2421169137992266608
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9125809958550309514}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1503891856661685689
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9125809958550309514}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec7ff9792f17f4131ac27aa1c977f277, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gesInput: {fileID: 2181845553270913133}
+--- !u!114 &2181845553270913133
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9125809958550309514}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69b7edd0df5984ffcaf58f4e152ab8e3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  leftGesture:
+    handType: 2
+    gesType: -1
+    handDown: 0
+    handUp: 0
+    handClick: 0
+    handPress: 0
+    wristPosition: {x: 0, y: 0}
+    handCenterPosition: {x: 0, y: 0}
+    pinchCenterPosition: {x: 0, y: 0}
+    position: {x: 0.22282492, y: 0.07076796, z: 0.32456276}
+    deltaPos: {x: 0, y: 0, z: 0}
+    handOrientation: 1
+    distance: 0
+    deltaZ: 0
+  rightGesture:
+    handType: 1
+    gesType: 0
+    handDown: 0
+    handUp: 0
+    handClick: 0
+    handPress: 0
+    wristPosition: {x: 0, y: 0}
+    handCenterPosition: {x: 0, y: 0}
+    pinchCenterPosition: {x: 0, y: 0}
+    position: {x: 0, y: 0, z: 0}
+    deltaPos: {x: 0, y: 0, z: 0}
+    handOrientation: 0
+    distance: 0
+    deltaZ: 0
+  preLeftGesType: -1
+  preRightGesType: -1
+  gestureTypeCache: ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+  gesCacheCount: 30
+  changeGesThreshold: 20
+  useGesFrameRecord: 1
+  logText: {fileID: 0}
+  showDebugLog: 1
+  gesNullThreshold: 30
+  rightHandInteractorType: 2
+  leftHandInteractorType: 2
+  gestureData:
+  - gesture_type: 0
+    hand_type: 0
+    hand_orientation: 0
+    skeletons: []
+    meshVerts: []
+    rotation: {x: 0, y: 0, z: 0, w: 0}
+    axis: []
+    position: {x: 0, y: 0, z: 0}
+  - gesture_type: 0
+    hand_type: 0
+    hand_orientation: 0
+    skeletons: []
+    meshVerts: []
+    rotation: {x: 0, y: 0, z: 0, w: 0}
+    axis: []
+    position: {x: 0, y: 0, z: 0}
+  preGestureData:
+  - gesture_type: 0
+    hand_type: 0
+    hand_orientation: 0
+    skeletons: []
+    meshVerts: []
+    rotation: {x: 0, y: 0, z: 0, w: 0}
+    axis: []
+    position: {x: 0, y: 0, z: 0}
+  - gesture_type: 0
+    hand_type: 0
+    hand_orientation: 0
+    skeletons: []
+    meshVerts: []
+    rotation: {x: 0, y: 0, z: 0, w: 0}
+    axis: []
+    position: {x: 0, y: 0, z: 0}
+  showToastOnHandLost: 1
+  handLostThreshold: 0.1
+--- !u!114 &7813949381383051531
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9125809958550309514}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e93bf10acf3ae49ae97b7869bd6be6de, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gestureDataCacheData: {fileID: 0}
+  gesFrameData: {fileID: 0}
+  eventInput: {fileID: 2181845553270913133}
+  mockGesIntaction: 1
+  mockGesRenderData: 0
+  mockPhoneData: 0

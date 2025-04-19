@@ -1,0 +1,50 @@
+﻿[
+  {
+    "DeviceId": 1,
+    "DeviceName": "Rokid Air",
+    "PID": 5679,
+    "CameraFov": 20.3,
+    "HaveCamera": 0,
+    "HaveGesture": 0
+  },
+  {
+    "DeviceId": 2,
+    "DeviceName": "Rokid Air Pro",
+    "PID": 5679,
+    "CameraFov": 20.3,
+    "HaveCamera": 1,
+    "HaveGesture": 0
+  },
+  {
+    "DeviceId": 3,
+    "DeviceName": "Rokid Air Pro+",
+    "PID": 5677,
+    "CameraFov": 20.3,
+    "HaveCamera": 1,
+    "HaveGesture": 0
+  },
+  {
+    "DeviceId": 4,
+    "DeviceName": "Rokid Max",
+    "PID": 5677,
+    "CameraFov": 24.0,
+    "HaveCamera": 0,
+    "HaveGesture": 0
+  },
+  {
+    "DeviceId": 5,
+    "DeviceName": "Rokid Max Pro",
+    "PID": 5677,
+    "CameraFov": 24.0,
+    "HaveCamera": 1,
+    "HaveGesture": 1
+  },
+  {
+    "DeviceId": 6,
+    "DeviceName": "Rokid Max Plus",
+    "PID": 8576,
+    "CameraFov": 24.0,
+    "HaveCamera": 1,
+    "HaveGesture": 0
+  }
+]

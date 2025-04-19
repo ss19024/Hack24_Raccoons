@@ -1,0 +1,20 @@
+﻿[
+  {
+    "Id": 1,
+    "FuncName": "CameraFunc",
+    "GlassDeviceModels": "Rokid Air Pro|Rokid Air Pro+|Rokid Max Pro|Rokid Max Plus",
+    "UseCamera": 1
+  },
+  {
+    "Id": 2,
+    "FuncName": "HandTracking",
+    "GlassDeviceModels": "Rokid Max Pro",
+    "UseCamera": 1
+  },
+  {
+    "Id": 4,
+    "FuncName": "Slam",
+    "GlassDeviceModels": "Rokid Max Pro|Rokid Air Pro+",
+    "UseCamera": 1
+  }
+]
